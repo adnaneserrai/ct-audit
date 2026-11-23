@@ -1,0 +1,7 @@
+--- constant-time comparison (no report expected) ---
+--- early-exit comparison (report expected) ---
+==505== Conditional jump or move depends on uninitialised value(s)
+==505==    at 0x109386: tag_early (ctgrind_mac.c:9)
+==505==    by 0x109386: main (ctgrind_mac.c:29)
+==505== 
+--- end ---
