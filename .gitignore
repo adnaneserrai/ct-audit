@@ -1,0 +1,12 @@
+*.exe
+*.o
+build/
+__pycache__/
+.venv/
+results/*
+!results/matrix.md
+!results/t_vs_measurements.png
+!results/ctgrind_kem.txt
+!results/ctgrind_mac.txt
+!results/aes_probe.txt
+!results/mldsa_iters.txt
